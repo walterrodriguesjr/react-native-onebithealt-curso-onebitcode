@@ -1,0 +1,43 @@
+aula 1 https://www.youtube.com/watch?v=Y8tP1jbRYHY&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=2
+-instalar o watchman para evitar erros 
+- https://facebook.github.io/watchman/docs/install 
+
+aula 2 https://www.youtube.com/watch?v=_N6-kScr-Ig&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=2 
+-PRINCIPAIS COMPONENTES DO REACT NATIVE (compontentes sáo usados para construçao de layouts)
+COMPONENTES:
+-VIEW - espaço da tela para definir altura, largura etc.. 
+IMAGE - trabalhar com imagens 
+SCROLLVIEW - pronto para poder scrollar a tela por padrao \
+TEXT - como nome diz, inserir textos
+TEXT INPUT - para o usuário clicar e inserir dados 
+STYLESHEET - onde pode se adicionar estilo dentro do aplicativo  
+
+COMPONENTES DE INTERFACE DE USUARIO (permite a interaçao do usuario)
+BUTTON 
+SWITCH 
+
+aula 3 https://www.youtube.com/watch?v=u_qccnftxXQ&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=3
+criado o componente de FORM e importado dentro de MAIN, o qual é impoortado dentro do index principal 
+criado componentes nativos de Text, TextInput e Button (todos nativos do react native)
+
+aula 4 https://www.youtube.com/watch?v=8X63GfvxbE8&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=4
+useState, funcao nativa do react para gerenciar o estado de uma informacao
+criado funcoes que chamam outras funcoes para calcular o IMC
+
+aula 5 https://www.youtube.com/watch?v=JusFvRHWDyU&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=5
+a customizaçao (a estilizacao) é feita criando o arquivo style.js do respectivo index, dentro do arquivo style.js, deve-se 
+    importar o compontente StyleSheet nativo do react-native, e abaixo, colocar ele dentro de uma constante nomeada, em 
+    seguida, usa o metodo create e no seu parametro, dentro de um array, passa as propriedades e valores CSS 
+atalho para criar declaracao padrao de const de styles: rnStyles 
+
+aula 6 https://www.youtube.com/watch?v=BCulqg8qUdU&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=6
+feito estilizacoes CSS em arquivos de style dedicado, sendo importado posteriormente em seus index 
+em seguida é chamado o style direto no componente 
+
+aula7 https://www.youtube.com/watch?v=uLoMoPC6Ics&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=7 
+feito estilizacoes nos componentes que exibem mensagens e resultados 
+
+aula 8 https://www.youtube.com/watch?v=wl0h3fMaIWc&list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_&index=8
+implementado um campo Text com uma funcionalidade de validaçao para cada input 
+criado uma funcao que manipula o estado de cada text de validacao 
+importado e implementado o componente nativo chaado Vibration 
