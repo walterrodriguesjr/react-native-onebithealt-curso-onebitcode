@@ -1,8 +1,7 @@
 {
   "expo": {
     "name": "onebithealt",
-    "slug": "onebithealt",
-    "version": "1.0.0",
+    "slug": "onebithealt-unique-id",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -16,11 +15,14 @@
       "supportsTablet": true
     },
     "android": {
-      "permissions": ["VIBRATE"],
+      "permissions": [
+        "VIBRATE"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.walter.onebithealtimc"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +34,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b9c2c707-2cd1-4fef-9407-4554dda8e8aa"
+      }
     }
   }
 }
